@@ -1,0 +1,203 @@
+@import "../base/variables";
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/*----INICIO----*/
+
+.gridContainer {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 250px 150px 600px 130px;
+    grid-template-areas:
+        "header"
+        "nav"
+        "main"
+        "footer"
+    ;
+}
+
+.encabezado {
+    background-color: $color-background;
+    grid-area: header;
+}
+
+.menu {
+    background-color: $color-background;
+    grid-area: nav;
+}
+
+.principal {
+    background-color: $color-background;
+    grid-area: main;
+}
+
+.publicidad {
+    background-color: $color-background;
+    grid-area: aside;
+}
+
+.pie {
+    background-color: $color-background;
+    background: linear-gradient(0deg, rgba(43,43,43,1) 60%, rgba(140,41,41,1) 100%, rgba(159,159,159,1) 100%);
+    grid-area: footer;
+}
+
+/*----Distintos Trabajos----*/
+
+.grid-conD {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px auto 120px;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer"
+    ;
+}
+
+.encabezadoD {
+    background-color: $color-background;
+}
+
+.principalD {
+    background-color: $color-background;
+
+}
+
+.pieD {
+    background-color: $color-background;
+    background: linear-gradient(0deg, rgba(43,43,43,1) 60%, rgba(140,41,41,1) 100%, rgba(159,159,159,1) 100%);
+}
+
+
+/*----Contactanos----*/
+
+.grid-contacto {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px 400px 120px;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer"
+    ;
+}
+
+.encabezadoC {
+    background-color: $color-background;
+}
+
+.principalC {
+    background-color: $color-background;
+
+}
+
+.pieC {
+    background-color: $color-background;
+    background: linear-gradient(0deg, rgba(43,43,43,1) 60%, rgba(140,41,41,1) 100%, rgba(159,159,159,1) 100%);
+}
+
+
+/*----Acerca De Nosotros----*/
+
+.grid-container {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px 400px 130px;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer"
+    ;
+}
+
+.encabezadoA {
+    background-color: $color-background;
+}
+
+.principalA {
+    background-color: $color-background;
+}
+
+.pieA {
+    background-color: $color-background;
+    background: linear-gradient(0deg, rgba(43,43,43,1) 60%, rgba(140,41,41,1) 100%, rgba(159,159,159,1) 100%);
+}
+
+
+/*----Ubicacion De Nuestra Sucursal----*/
+
+.grid-conU {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px 400px 120px;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer"
+    ;
+}
+
+.encabezadoU {
+    background-color: $color-background;
+}
+
+.principalU {
+    background-color: $color-background;
+
+}
+
+.pieU {
+    background-color: $color-background;
+    background: linear-gradient(0deg, rgba(43,43,43,1) 60%, rgba(140,41,41,1) 100%, rgba(159,159,159,1) 100%);
+}
+
+/*--Span--*/
+
+span{
+    color: $color-span;
+}
+
+/*--h1,h2,h3,etc--*/
+
+h1{
+    color: $color-h1;
+}
+
+h2{
+    color: $color-h2;
+}
+
+h3{
+    color: $color-h3;
+}
+
+/*--FOOTER--*/
+
+p{
+    color: $color-p;
+}

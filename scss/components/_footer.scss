@@ -1,0 +1,119 @@
+@import "../base/variables";
+
+/*----INICIO----*/
+
+.pie {
+    color: aliceblue;
+    font-size: 20px;
+    section {
+        display: flex;
+        justify-content: space-evenly;
+        div {
+            text-align: center;
+            margin: 8px;
+            a {
+                text-decoration: none;
+                img{
+                    p {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*----Distintos Trabajos----*/
+
+.pieD {
+    color: aliceblue;
+    font-size: 20px;
+    section {
+        display: flex;
+        justify-content: space-evenly;
+        div {
+            text-align: center;
+            margin: 8px;
+            a {
+                text-decoration: none;
+                img{
+                    p {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*----Contactanos----*/
+
+.pieC {
+    color: aliceblue;
+    font-size: 20px;
+    section {
+        display: flex;
+        justify-content: space-evenly;
+        div {
+            text-align: center;
+            margin: 8px;
+            a {
+                text-decoration: none;
+                img{
+                    p {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*----Acerca De Nosotros----*/
+
+.pieA {
+    color: aliceblue;
+    font-size: 20px;
+    section {
+        display: flex;
+        justify-content: space-evenly;
+        div {
+            text-align: center;
+            margin: 8px;
+            a {
+                text-decoration: none;
+                img{
+                    p {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*----Ubicacion De Nuestra Sucursal----*/
+
+.pieU {
+    color: aliceblue;
+    font-size: 20px;
+    section {
+        display: flex;
+        justify-content: space-evenly;
+        div {
+            text-align: center;
+            margin: 8px;
+            a {
+                text-decoration: none;
+                img{
+                    p {
+                        color: white;
+                    }
+                }
+            }
+        }        
+    }
+}

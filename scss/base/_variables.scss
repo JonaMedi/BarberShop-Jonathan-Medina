@@ -1,0 +1,31 @@
+/*----Variables----*/
+
+$color-hover: rgb(7, 0, 22);
+
+$color-span: brown;
+
+$color-h1: white;
+
+$color-h2: white;
+
+$color-h3: white;
+
+$color-p: white;
+
+$color-background: rgb(43, 43, 43);
+
+
+/*----MAPAS----*/
+
+$boton:(
+    borde: 2px solid white,
+);
+
+
+/*----Mixins----*/
+
+@mixin flex ($flex, $justify, $aling){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $aling;
+}

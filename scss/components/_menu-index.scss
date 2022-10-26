@@ -1,0 +1,18 @@
+/*----Menu Index----*/
+
+.menu{
+    ul {
+        text-align: center;
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        li {
+            margin: 4px;
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}

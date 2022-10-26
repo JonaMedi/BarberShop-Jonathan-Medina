@@ -246,7 +246,7 @@ h2 {
         text-align: center;
     }
 
-    .noso img {
+    /*.noso img {
         width: 400px;
         height: 400px;
     }
@@ -258,7 +258,7 @@ h2 {
     .noso h2 {
         font-size: 35px;
         color: white;
-    }
+    }*/
 }
 
 
@@ -359,7 +359,7 @@ h2 {
         font-size: 25px;
     }
 
-    .publicidad {
+    /*.publicidad {
         width: 100%;
         height: 80vh;
         background-position: center;
@@ -367,7 +367,7 @@ h2 {
         background-size: cover;
         background-attachment: fixed;
         object-fit: contain;
-    }
+    }*/
 
     .publicidad {
         width: 100%;
@@ -635,6 +635,10 @@ h2 {
     .noso div img {
         width: 400px;
         height: 400px;
+    }
+
+    .noso div p{
+        font-size: 20px;
     }
 
     .noso {
@@ -947,10 +951,10 @@ input#boton {
     margin: 4px;
 }
 
-.principalU h1 {
+/*.principalU h1 {
     font-size: 20px;
     text-align: center;
-}
+}*/
 
 .principalU section iframe {
     width: 250px;

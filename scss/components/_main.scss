@@ -1,0 +1,159 @@
+@import "../base/variables";
+
+/*----INICIO----*/
+
+.principal{
+    .hour {
+        border: 1px solid rgb(255, 255, 255);
+        width: 350px;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0% auto;
+        color: white;
+        h2 {
+            text-align: center;
+            font-size: 15px;
+        }
+        .diasYHorarios{
+            text-align: center;
+            border: map-get($boton, borde );
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+            h3 {
+                font-size: 15px;
+            }
+            p {
+                font-size: 15px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+/*----Distintos Trabajos----*/
+
+.principalD{
+    h2 {
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        margin-top: 10px;
+    }
+    .fotos {
+        width: 100%;
+        margin-top: 15px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 350px;
+        gap: 15px;
+        transition: 2s;
+        div{
+            img {
+                width: 90%;
+                height: 95%;
+                transition: 2s;
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+    .fotos2 {
+        width: 100%;
+        margin-top: 15px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 350px;
+        gap: 15px;
+        transition: 2s;
+        div{
+            img {
+                width: 90%;
+                height: 95%;
+                transition: 2s;
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+
+
+/*----Contactanos----*/
+
+.principalC {
+    height: 400px;
+    .form {
+        text-align: center;
+        border: 2px solid white;
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        margin-top: 15px;
+        color: white;
+        form{
+            div{
+                input#boton {
+                    padding: 5px 50px;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+}
+
+
+/*----Acerca De Nosotros----*/
+
+.principalA{
+    .noso {
+        border: 2px solid white;
+        height: 370px;
+        margin-top: 10px;
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h2 {
+                text-align: center;
+                font-size: 15px;
+                color: white;
+            }
+            img {
+                width: 200px;
+                height: 200px;
+            }
+            p {
+                text-align: center;
+                font-size: 15px;
+                color: white;
+            }
+        }
+    }
+}
+
+
+/*----Ubicacion De Nuestra Sucursal----*/
+
+.principalU {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    section{
+        p {
+            text-align: center;
+            font-size: 15px;
+        }
+        iframe {
+            width: 250px;
+            height: 250px;
+        }
+    }
+}
