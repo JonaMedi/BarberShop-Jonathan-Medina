@@ -14,7 +14,7 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 250px 150px 600px 130px;
+  grid-template-rows: 250px 200px 700px 130px;
   grid-template-areas: "header" "nav" "main" "footer"; }
 
 .encabezado {
@@ -88,7 +88,7 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 400px 400px 130px;
+  grid-template-rows: 500px 450px 130px;
   grid-template-areas: "header" "main" "footer"; }
 
 .encabezadoA {
@@ -234,7 +234,8 @@ p {
 .encabezadoA h1 {
   color: white;
   text-align: center;
-  font-size: 15px; }
+  font-size: 15px;
+  margin-top: 5px; }
   .encabezadoA h1 span {
     color: brown; }
 
@@ -288,7 +289,8 @@ p {
   font-size: 15px;
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 20px; }
   .menu ul li {
     margin: 4px; }
     .menu ul li a {
@@ -299,29 +301,33 @@ p {
 /*----MAPAS----*/
 /*----Mixins----*/
 /*----INICIO----*/
-.principal .hour {
-  border: 1px solid white;
-  width: 350px;
-  height: 550px;
+.principal {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 0% auto;
-  color: white; }
-  .principal .hour h2 {
-    text-align: center;
-    font-size: 15px; }
-  .principal .hour .diasYHorarios {
-    text-align: center;
-    border: 2px solid white;
+  justify-content: center; }
+  .principal .hour {
+    border: 1px solid white;
+    width: 350px;
+    height: 550px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin: 10px; }
-    .principal .hour .diasYHorarios h3 {
+    margin: 0% auto;
+    color: white; }
+    .principal .hour h2 {
+      text-align: center;
       font-size: 15px; }
-    .principal .hour .diasYHorarios p {
-      font-size: 15px;
-      text-align: center; }
+    .principal .hour .diasYHorarios {
+      text-align: center;
+      border: 2px solid white;
+      display: flex;
+      justify-content: center;
+      margin: 10px; }
+      .principal .hour .diasYHorarios h3 {
+        font-size: 15px; }
+      .principal .hour .diasYHorarios p {
+        font-size: 15px;
+        text-align: center; }
 
 /*----Distintos Trabajos----*/
 .principalD h2 {
@@ -376,26 +382,30 @@ p {
       margin: 5px; }
 
 /*----Acerca De Nosotros----*/
-.principalA .noso {
-  border: 2px solid white;
-  height: 370px;
-  margin-top: 10px; }
-  .principalA .noso div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-    .principalA .noso div h2 {
-      text-align: center;
-      font-size: 15px;
-      color: white; }
-    .principalA .noso div img {
-      width: 200px;
-      height: 200px; }
-    .principalA .noso div p {
-      text-align: center;
-      font-size: 15px;
-      color: white; }
+.principalA {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .principalA .noso {
+    border: 2px solid white;
+    height: 370px;
+    margin-top: 10px; }
+    .principalA .noso div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .principalA .noso div h2 {
+        text-align: center;
+        font-size: 15px;
+        color: white; }
+      .principalA .noso div img {
+        width: 200px;
+        height: 200px; }
+      .principalA .noso div p {
+        text-align: center;
+        font-size: 15px;
+        color: white; }
 
 /*----Ubicacion De Nuestra Sucursal----*/
 .principalU {
@@ -527,7 +537,7 @@ p {
   .principal .hour {
     border: 1px solid white;
     width: 350px;
-    height: 700px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;

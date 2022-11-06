@@ -3,7 +3,10 @@
 /*----INICIO----*/
 
 .principal{
-    .hour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        .hour {
         border: 1px solid rgb(255, 255, 255);
         width: 350px;
         height: 550px;
@@ -12,26 +15,26 @@
         justify-content: center;
         margin: 0% auto;
         color: white;
-        h2 {
+            h2 {
             text-align: center;
             font-size: 15px;
-        }
-        .diasYHorarios{
+            }
+            .diasYHorarios{
             text-align: center;
             border: map-get($boton, borde );
             display: flex;
             justify-content: center;
             margin: 10px;
-            h3 {
+                h3 {
                 font-size: 15px;
-            }
-            p {
+                }
+                p {
                 font-size: 15px;
                 text-align: center;
+                }
             }
         }
     }
-}
 
 /*----Distintos Trabajos----*/
 
@@ -110,32 +113,35 @@
 /*----Acerca De Nosotros----*/
 
 .principalA{
-    .noso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        .noso {
         border: 2px solid white;
         height: 370px;
         margin-top: 10px;
-        div {
+            div {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            h2 {
+                h2 {
                 text-align: center;
                 font-size: 15px;
                 color: white;
-            }
-            img {
+                }
+                img {
                 width: 200px;
                 height: 200px;
-            }
-            p {
+                }
+                p {
                 text-align: center;
                 font-size: 15px;
                 color: white;
+                }
             }
         }
     }
-}
 
 
 /*----Ubicacion De Nuestra Sucursal----*/
