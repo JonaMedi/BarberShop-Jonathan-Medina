@@ -141,6 +141,10 @@ h3 {
 p {
   color: white; }
 
+/*--Menu--*/
+.gridContainer {
+  background-color: #2b2b2b; }
+
 /*----Variables----*/
 /*----MAPAS----*/
 /*----Mixins----*/
