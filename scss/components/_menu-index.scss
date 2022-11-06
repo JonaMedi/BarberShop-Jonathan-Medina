@@ -1,19 +1,19 @@
 /*----Menu Index----*/
 
 .menu{
-    ul {
+    margin-top: 25px;
+        ul {
         text-align: center;
         font-size: 15px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: 20px;
-        li {
+            li {
             margin: 4px;
-            a {
+                a {
                 color: white;
                 text-decoration: none;
+                }
             }
         }
     }
-}
