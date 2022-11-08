@@ -847,8 +847,7 @@ p {
       margin: 0% auto; }
       .encabezadoA .menuA ul {
         list-style: none;
-        text-align: center;
-        margin: 10px; }
+        text-align: center; }
         .encabezadoA .menuA ul li {
           margin-top: 13px; }
           .encabezadoA .menuA ul li a {
